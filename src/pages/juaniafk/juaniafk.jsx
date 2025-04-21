@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 
 function juaniafk() {
 
@@ -8,12 +8,6 @@ function juaniafk() {
       <div>
         <p>bb</p>
       </div>
-
-
-
-
-
-
 
     </>
   )
