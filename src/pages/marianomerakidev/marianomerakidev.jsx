@@ -1,6 +1,8 @@
 import '../../index.css'
 import './marianomerakidev.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react';
+
 
 function Marianomerakidev() {
     const [fortune, setFortune] = useState("");
