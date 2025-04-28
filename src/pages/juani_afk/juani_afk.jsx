@@ -4,12 +4,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 
 const cardImages = [
-  { src: "/images/1.png", matched: false },
-  { src: "/images/2.png", matched: false },
-  { src: "/images/3.png", matched: false },
-  { src: "/images/4.png", matched: false },
-  { src: "/images/5.png", matched: false },
-  { src: "/images/6.png", matched: false },
+  { color: "#ff4d4d", matched: false },
+  { color: "#ff4d4d", matched: false },
+  { color: "#4d4dff", matched: false },
+  { color: "#ffff4d", matched: false },
+  { color: "#ff4dff", matched: false },
+  { color: "#4dffff", matched: false },
 ];
 
 function Juani_afk() {
@@ -32,7 +32,7 @@ function Juani_afk() {
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       setDisabled(true);
-      if (choiceOne.src === choiceTwo.src) {
+      if (choiceOne.color === choiceTwo.src) {
         setCards(prev =>
           prev.map(card =>
             card.src === choiceOne.src ? { ...card, matched: true } : card
