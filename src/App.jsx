@@ -11,23 +11,30 @@ import Juani_afk from './pages/juani_afk/Juani_afk'
 function App() {
   return (
     <>
-      <div className="principal-container">
-        <h1 className="principal-title">Proyecto Compartido - Club de Programación</h1>
-        <div className="buttons-container">
-          <Link className="button" to="/raggiodev">raggiodev</Link>
-          <Link className="button" to="/kar_st">kar_st</Link>
-          <Link className="button" to="/marianomerakidev">marianomerakidev</Link>
-          <Link className="button" to="/jonnyfebl">jonnyfebl</Link>
-          <Link className="button" to="/juani_afk">juani_afk</Link>
-        </div>
-      </div>
-
       <Routes>
+        {/* Página Principal */}
+        <Route path="/" element={
+          <div className="principal-container">
+            <h1 className="principal-title">Proyecto Compartido - Club de Programación</h1>
+            <div className="buttons-container">
+              <Link className="button" to="/raggiodev">raggiodev</Link>
+              <Link className="button" to="/kar_st">kar_st</Link>
+              <Link className="button" to="/marianomerakidev">marianomerakidev</Link>
+              <Link className="button" to="/jonnyfebl">jonnyfebl</Link>
+              <Link className="button" to="/juani_afk">juani_afk</Link>
+            </div>
+          </div>
+        } />
+
+        {/* Páginas Colaboradores */}
         <Route path="/raggiodev" element={<Raggiodev />} />
         <Route path="/kar_st" element={<Kar_st />} />
         <Route path="/marianomerakidev" element={<Marianomerakidev />} />
         <Route path="/jonnyfebl" element={<Jonnyfebl />} />
         <Route path="/juani_afk" element={<Juani_afk />} />
+
+        {/* Página 404 */}
+        <Route path="*" element={<h1>Página no encontrada</h1>} />
       </Routes>
     </>
   )
