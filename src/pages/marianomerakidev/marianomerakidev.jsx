@@ -1,6 +1,6 @@
-import '../../App.css'
+import '../../index.css'
 
-function marianete() {
+function marianomerakidev() {
 
     return (
         <>
@@ -11,4 +11,4 @@ function marianete() {
     )
 }
 
-export default marianete
+export default marianomerakidev

@@ -1,6 +1,6 @@
-import '../../App.css'
+import '../../index.css'
 
-function Jorge() {
+function jonnyfebl() {
 
   return (
     <>
@@ -11,4 +11,4 @@ function Jorge() {
   )
 }
 
-export default Jorge
+export default jonnyfebl
