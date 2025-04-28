@@ -1,6 +1,6 @@
 import '../../index.css'
 
-function juani_afk() {
+function Juani_afk() {
 
   return (
     <>
@@ -13,4 +13,4 @@ function juani_afk() {
   )
 }
 
-export default juani_afk
+export default Juani_afk

@@ -1,6 +1,6 @@
 import '../../index.css'
 
-function marianomerakidev() {
+function Marianomerakidev() {
 
     return (
         <>
@@ -11,4 +11,4 @@ function marianomerakidev() {
     )
 }
 
-export default marianomerakidev
+export default Marianomerakidev

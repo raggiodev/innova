@@ -1,13 +1,11 @@
 import '../../index.css'
 
-function raggiodev() {
-  
+function Raggiodev() {
   return (
     <>
       <h1>Página del profe</h1>
-      
     </>
   )
 }
 
-export default raggiodev
+export default Raggiodev

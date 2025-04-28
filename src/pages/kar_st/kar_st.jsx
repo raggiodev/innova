@@ -1,6 +1,6 @@
 import '../../index.css'
 
-function kar_st() {
+function Kar_st() {
   
   return (
     <>
@@ -10,4 +10,4 @@ function kar_st() {
   )
 }
 
-export default kar_st
+export default Kar_st

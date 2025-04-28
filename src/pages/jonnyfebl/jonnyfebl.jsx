@@ -1,6 +1,6 @@
 import '../../index.css'
 
-function jonnyfebl() {
+function Jonnyfebl() {
 
   return (
     <>
@@ -11,4 +11,4 @@ function jonnyfebl() {
   )
 }
 
-export default jonnyfebl
+export default Jonnyfebl
