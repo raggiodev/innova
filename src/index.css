@@ -38,19 +38,20 @@
   background-color: #555;
 }
 
-/* COLABORADORES: */
+.button:active {
+  background-color: #777;
+}
 
-/* raggiodev */
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
 
+.button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
 
-/* kar_st */
-
-
-/* marianomerakidev */
-
-
-/* jonnyfebl */
-
-
-/* juani_afk */
-
+.button:disabled:hover {
+  background-color: #999;
+}
