@@ -8,8 +8,9 @@ function Raggiodev() {
       <section className="raggiodev-content">
         <h1 className="raggiodev-title">Página del Profe</h1>
         <p className="raggiodev-description">
-          Bienvenido a mi sección del proyecto compartido. 🚀 <br />
-          Acá encontrarás mis aportes y aprender junto a todo el Club de Programación.
+          Bienvenido a la sección del profe raggiodev.<br />
+          Usa esta plantilla para crear tu propia página personal.<br />
+          Éxitos! 🫡
         </p>
         <Link className="button" to="/">Volver al inicio</Link>
       </section>
