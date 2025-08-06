@@ -1,5 +1,3 @@
 # INNOVA - LIBRES
 
-## Expanding the ESLint configuration
-
-Proyecto creado en conjunto con el profe y los alumnos/as del "Club de Programación" de "Innova Libres".
+Proyecto creado en conjunto con el profe Raggiodev y los 4 alumnos/as aprobados del "Club de Programación - Nivel 2" de "Innova Libres".
